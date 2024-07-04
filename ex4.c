@@ -4,7 +4,11 @@
 int main(void) {
     int i;
     int countHeads = 0;
+    char name[20];
 
+    printf("Who are you?\n");
+    scanf("%s",&name);
+    printf("Hello, %s!\n",name);
     for (i = 0; i < 3; i++) {
         int r = rand();
         printf("Round %d: ",i+1);
