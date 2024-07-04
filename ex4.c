@@ -20,8 +20,8 @@ int main(void) {
     }
     printf("Heads: %d, Tails: %d\n",countHeads,3-countHeads);
 
-    if(countHeads > (3-countHeads))printf("You won\n");
-    else printf("You lost\n");
+    if(countHeads > (3-countHeads))printf("%s won\n",name);
+    else printf("%s lost\n",name);
 
 
     return 0;
